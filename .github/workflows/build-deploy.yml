@@ -24,7 +24,7 @@ jobs:
         run: npm run build
 
       - name: Get Id Token
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         id: idtoken
         with:
           script: |
